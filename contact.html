@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Example landscaping Contact</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <a href="index.html" class="logo"><img src="imgs/logo.JPG" alt="" /></a>
+      <div id="menu-icon" class="bx bx-menu"></div>
+      <nav class="navbar">
+        <a href="services.html" class="active">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html" class="btn">Request a Quote</a>
+        <span class="active-nav"></span>
+      </nav>
+    </header>
+
+    <section>
+      <div class="contact-page container flex">
+        <h1>Get In Contact With Us</h1>
+        <div class="form-container flex card contact-page-form">
+          <div class="form-contents">
+            <form class="grid" action="#">
+              <div class="input-box flex">
+                <div class="input-field">
+                  <input
+                    class="card"
+                    type="text"
+                    id="name"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="input-field">
+                  <input
+                    class="card"
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="input-field">
+                  <input
+                    class="card"
+                    type="text"
+                    id="number"
+                    placeholder="Mobile Number"
+                    required
+                  />
+                </div>
+                <div class="input-field">
+                  <input
+                    class="card"
+                    type="text"
+                    id="subject"
+                    placeholder="Project Idea"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="textarea-box flex">
+                <div class="textarea flex">
+                  <textarea
+                    class="card"
+                    name=""
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Project Description"
+                    required
+                  ></textarea>
+                </div>
+                <div class="btn-box flex">
+                  <button onclick="sendMail()" class="btn card">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer container flex">
+        <div class="footer-text">
+          <p>Copyright &copy; 2023 by Owen Kanzler | All Rights Reserved.</p>
+        </div>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/neighbors.companies"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="mailto:neighbors.comp@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
