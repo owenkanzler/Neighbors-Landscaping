@@ -585,6 +585,10 @@ p {
   .btn-box button {
     height: 70%;
   }
+
+  .why h2 {
+    text-align: center;
+  }
 }
 
 @media (max-width: 425px) {
